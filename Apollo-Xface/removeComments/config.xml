@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<apollo>
+    <publishProjects>
+        <project>
+            <path>framework/android</path>
+            <removeFiles>
+                <dirs>
+                    <dir>unittest</dir>
+                    <dir>src/com/polyvi/xface/ams/singlefile</dir>
+                    <dir>src/com/polyvi/xface/server</dir>
+                </dirs>
+                <files>
+                    <file>contents.txt</file>
+                    <file>src/com/polyvi/xface/XNetworkLoadingStragegy.java</file>
+                </files>
+            </removeFiles>
+        </project>
+        <project>
+            <path>project/dev_android/xFaceApollo</path>
+            <removeFiles>
+                <dirs>
+                    <dir/>
+                </dirs>
+                <files/>
+            </removeFiles>
+        </project>
+        <project>
+            <path>project/dev_android/xFaceApolloLib</path>
+            <removeFiles>
+                <dirs>
+                    <dir/>
+                </dirs>
+                <files/>
+            </removeFiles>
+        </project>
+    </publishProjects>
+</apollo>
